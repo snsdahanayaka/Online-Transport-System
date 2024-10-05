@@ -1,0 +1,85 @@
+
+body{
+    line-height: 1.5;
+    font-family:'Poppins', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../image/beautiful-shot-rocky-mountains-covered-with-white-snow.jpg);
+    min-width:100vw;
+    background-repeat: no-repeat;
+ 
+    background-size:cover;  
+    background-position:center;
+}
+
+
+/*privacy details  box css*/
+.wrap{
+    margin-top: 5%;
+    margin-bottom: 50px;
+    position: relative;
+    height: auto;
+    width: 60%;
+    padding: 20px;
+    background: rgba(82, 81, 81, 0.484);
+    border: 2px solid rgb(64, 64, 70);
+    border-radius: 20px;   
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px black;
+    display: flex;
+   
+
+}
+
+.text{
+ 
+    height: 700px;
+    padding: 40px;
+    overflow-y: auto;
+
+}
+.text::-webkit-scrollbar{
+    width: 10px;
+    background: rgba(60, 58, 58, 0.768);
+    padding: 5px;
+    border-radius: 20px;
+}
+.text::-webkit-scrollbar-thumb{
+    background: rgba(239, 11, 11, 0.471);
+    border-radius: 20px;
+}
+.privacy_box h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+body {
+    font-family:sans-serif;
+}
+
+html {
+    background-color: #eaf0f2;
+}
+
+h2{
+
+    color: white;
+}

@@ -1,0 +1,66 @@
+
+/*Styles for the background image in index page*/
+.banner-index{
+  width: 100%;
+  height: 100vh;
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),
+  url('../images/Background3.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: transitionIn 0.75s;
+}
+
+/* Styles for the index title content*/
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+  transition: 0.3s;
+}
+
+.content p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+/* Hover styles for h1 and p tags */
+.content h1:hover{
+  font-size: 75px;
+}
+
+.content p:hover{
+  font-size: 35px;
+}
+
+/* Styles for the section */
+.section{
+  background-color: white;
+  padding:15px 9%;
+  padding-top: 60px;
+  margin-top: 10px;
+}
+
+.section p{
+  text-align: justify;
+  font-size: 30px;
+}
+
+.section .heading{
+  text-align: center;
+  padding-bottom: 15px;
+  color:#181818;
+  text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  font-size: 40px;
+}
